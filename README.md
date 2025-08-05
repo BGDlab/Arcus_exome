@@ -26,7 +26,7 @@ Important: The list of child sample IDs is provided in the file ABC.txt.
 All exome sequencing samples in Arcus Lab have been pre-annotated using VEP (Variant Effect Predictor). For detailed information on VEP annotations and field definitions, please refer to:
 https://useast.ensembl.org/info/docs/tools/vep/index.html
 
-**2.1 Variant filtering criteria** (refer to code.sh)
+**2.1 Variant filtering criteria (refer to code.sh)**
 
 For downstream analyses, we retain only high-confidence variants and genotypes of interest according to the following criteria:
 
@@ -55,14 +55,14 @@ We retain genotypes with the following values from the "FORMAT:GT" field:
 
 1/2: Heterozygous for two ALT alleles (multiallelic site)
 
-**2.2 Functional prediction filter** (refer to code.sh)
+**2.2 Functional prediction filter (refer to code.sh)** 
 
 We focus exclusively on variants predicted to be potentially damaging: Include only variants annotated by PolyPhen as:
 
 PolyPhen = probably_damaging
 (found in the INFO field of the VCF)
 
-**2.3 Clinical relevance filter** (refer to code.R)
+**2.3 Clinical relevance filter (refer to code.R)** 
 
 To prioritize clinically significant variants: Include only variants with ClinVar annotations:
 
