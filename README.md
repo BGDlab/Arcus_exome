@@ -71,7 +71,7 @@ CLIN_SIG = likely_pathogenic or pathogenic
 
 **2.4 Allele frequency filter (rare variants only) (refer to code.R)**
 
-To enrich for rare variants, we exclude common polymorphisms:
+To enrich for rare variants, we exclude common genetic variants:
 
 Retain variants where:
 
