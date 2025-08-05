@@ -69,7 +69,7 @@ To prioritize clinically significant variants: Include only variants with ClinVa
 CLIN_SIG = likely_pathogenic or pathogenic
 (also found in the INFO field of the VCF)
 
-**2.4 Allele frequency filter (rare variants only)** (refer to code.R)
+**2.4 Allele frequency filter (rare variants only) (refer to code.R)**
 
 To enrich for rare variants, we exclude common polymorphisms:
 
